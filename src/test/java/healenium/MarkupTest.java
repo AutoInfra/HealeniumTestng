@@ -24,7 +24,7 @@ public class MarkupTest extends BaseTest{
         }
     }
 
-    @Test
+    //@Test
     public void testButtonClickWithFindElementPage() {
         MainPage mainPage = new MainPage(driver);
         mainPage.open()
@@ -39,7 +39,7 @@ public class MarkupTest extends BaseTest{
     }
 
 
-    @Test
+    //@Test
     public void testButtonClickWithDisableHealing() {
         MainPageWithFindBy mainPage = new MainPageWithFindBy(driver);
         mainPage.open()
