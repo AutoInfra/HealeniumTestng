@@ -1,5 +1,7 @@
 ###This is a sample Project to test Self Healing Capabilities of Healinium
 for more information on healenium, visit healenium.io
+
+Healenium is a Opensource webdriver wrapper from EPAM which has the ability of self healing tests. Healenium Driver implements selenium webdriver by adding try catch mechanism for No element found execption. when an element is not found Healenium backend will recollect the earlier locator values of the test and try to heal them.
 #### Steps to Use this Repo
 
 Step1: Clone this repo
