@@ -4,18 +4,14 @@
 
     <listeners>
 
-<!--      	<listener class-name="listeners.grafanalistener"/>-->
-<!--     <listener class-name="listeners.ElasticListener"/>-->
- 	    <listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener"/>
-<!--        <listener class-name="listeners.ExtentBasic.ExtentListener"></listener>-->
-<!--          <listener class-name="listeners.PowerBI_Listener"/>-->
+<!-- 	    <listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener"/>-->
 
     </listeners>
 
     <test name="Sample-Tests">
         <classes>
-<!--            <class name="healenium.amazontest" />-->
-            <class name="healenium.MarkupTest"></class>
+            <class name="healenium.amazontest" />
+<!--            <class name="healenium.MarkupTest"></class>-->
         </classes>
     </test>
 

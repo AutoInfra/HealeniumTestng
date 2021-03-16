@@ -22,9 +22,9 @@ public class BaseTest {
         ChromeOptions options = new ChromeOptions();
         //options.setHeadless(true);
         //declare delegate
-        WebDriver Healeniumdelegate = new ChromeDriver(options);
+        WebDriver seleniumWebdriver = new ChromeDriver(options);
 
-        driver = SelfHealingDriver.create(Healeniumdelegate);
+        driver = SelfHealingDriver.create(seleniumWebdriver);
         driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
         driver.manage().window().setSize(new Dimension(1200, 800));
     }

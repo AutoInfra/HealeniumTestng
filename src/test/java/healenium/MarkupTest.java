@@ -1,7 +1,6 @@
 package healenium;
 
 import org.testng.annotations.Test;
-import pagefactory.MainPage;
 import pagefactory.MainPageWithFindBy;
 
 import static org.testng.Assert.assertTrue;
@@ -23,21 +22,6 @@ public class MarkupTest extends BaseTest{
             mainPage.confirmAlert();  //confirm Alert again
         }
     }
-
-    //@Test
-    public void testButtonClickWithFindElementPage() {
-        MainPage mainPage = new MainPage(driver);
-        mainPage.open()
-            .clickTestButton();
-        mainPage.confirmAlert();
-        for (int i = 0; i <= 2; i++) {
-            mainPage
-                .generateMarkup()
-                .clickTestButton();
-            mainPage.confirmAlert();
-        }
-    }
-
 
     //@Test
     public void testButtonClickWithDisableHealing() {

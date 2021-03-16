@@ -12,7 +12,10 @@ public class amazonPage extends BasePage {
         super(driver);
         PageFactory.initElements(driver, this);
     }
-@FindBy(css = "span#nav-link-accountList-nav-line")
+
+//@FindBy(css = "#nav-link-accountList-nav-line-1")
+//  @FindBy(xpath = "//span[@class='nav-line-2 nav-long-width']")
+  @FindBy(xpath = "/html[1]/body[1]/div[1]/header[1]/div[1]/div[1]/div[3]/div[1]/a[2]/span[1]")
     WebElement signinbtn;
 
     public amazonPage open() {
