@@ -11,7 +11,7 @@
     <test name="Sample-Tests">
         <classes>
             <class name="healenium.amazontest" />
-<!--            <class name="healenium.MarkupTest"></class>-->
+            <class name="healenium.MarkupTest"></class>
         </classes>
     </test>
 
